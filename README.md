@@ -12,11 +12,15 @@ gem "developer_info"
 
 And then execute:
 
-    $ bundle
+``` sh
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install developer_info
+``` sh
+$ gem install developer_info
+```
 
 ## Usage
 
