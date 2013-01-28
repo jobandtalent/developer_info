@@ -1,4 +1,3 @@
-require "fileutils"
 require "rspec"
 require "support/dummy_repo"
 require "developer_info"
