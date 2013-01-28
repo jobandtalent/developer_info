@@ -6,7 +6,9 @@ Simple utility class to get developer info from git config.
 
 Add this line to your application's Gemfile:
 
-    gem "developer_info"
+``` ruby
+gem "developer_info"
+```
 
 And then execute:
 
@@ -18,13 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-    require "developer_info"
+``` ruby
+require "developer_info"
 
-    developer_info = DeveloperInfo.new("#{ENV["HOME"]}/git/repo/path")
-    developer_info.editor # "mvim"
-    developer_info.email  # "john.doe@example.org"
-    developer_info.name   # "John Doe"
-    developer_info.to_s   # "John Doe (john.doe@example.org)"
+developer_info = DeveloperInfo.new("#{ENV["HOME"]}/git/repo/path")
+
+developer_info.editor # "mvim"
+developer_info.email  # "john.doe@example.org"
+developer_info.name   # "John Doe"
+developer_info.to_s   # "John Doe (john.doe@example.org)"
+```
 
 ## Contributing
 
