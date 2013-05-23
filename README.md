@@ -16,7 +16,7 @@ And then execute:
 $ bundle
 ```
 
-Or install it yourself as:
+Or install it yourself by:
 
 ``` sh
 $ gem install developer_info
