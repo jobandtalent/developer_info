@@ -1,5 +1,7 @@
 # DeveloperInfo
 
+[![Build Status](https://travis-ci.org/tomekw/developer_info.png)](https://travis-ci.org/tomekw/developer_info)
+
 Simple utility class to get developer info from git config.
 
 ## Installation
